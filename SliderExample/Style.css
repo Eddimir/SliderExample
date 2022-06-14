@@ -1,0 +1,41 @@
+.container{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.btn{
+    cursor: pointer;
+    height: 40px;
+    width: 50px;
+    margin:5px;
+}
+
+.image{
+    object-fit: cover;
+    border: 1px solid red;
+    max-width: 1100px;
+    min-width: 1100px;
+    height: 500px;
+    background-color: blue;
+}
+
+.text{
+    position: absolute; 
+     color: red;
+     right: 140px;
+     bottom: 40px;
+     text-shadow: 2px 2px 4px #000000;
+}
+.dot {
+    cursor: pointer;
+    height: 25px;
+    width: 25px;
+    margin: 4px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  .active, .dot:hover {
+    background-color: #000000;
+  }
